@@ -10,4 +10,4 @@ const uploadSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Upload", uploadSchema);
+export const UploadModel = mongoose.model("Upload", uploadSchema);
