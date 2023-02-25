@@ -1,7 +1,7 @@
 import express from "express";
-const router = express.Router();
 import { getPhotos, uploadPhoto } from "../controllers/uploadController.js";
 import uploadMiddleware from "../middlewares/multerMiddlewares.js";
+const router = express.Router();
 
 router.get("/api/get", getPhotos);
 
