@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { connectDb } from "./database/index.js";
-import UploadRoute from "./routes/UploadRoute.js";
+import UploadRoute from "./routes/uploadRoute.js";
 dotenv.config();
 
 const app = express();
