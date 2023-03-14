@@ -4,6 +4,8 @@ Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo ess
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+<img src="https://github.com/matheushenriquecsb/photo-gallery-backend/blob/main/image/Project.png?raw=true" width="455"/> <img src="https://github.com/matheushenriquecsb/photo-gallery-backend/blob/main/image/Project1 .png?raw=true" width="455"/>
+
 ## Tecnologias e dependências utilizadas
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -22,10 +24,10 @@ Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo ess
 - Para o rodar o projeto, primeiramente abra o projeto em seu editor de código e no seu terminal digite <i>npm start ou yarn start</i><br>
 - Acesse o servidor local em seu navegador na porta escolhida   
 
-### Acesso ao projeto
+### Acesso ao Projeto
 
  [Acesse o código fonte do projeto](https://github.com/matheushenriquecsb/photo-gallery-backend) 
  
 ### Frontend do Projeto
 
- [Acesse o código fonte do backend do projeto](https://github.com/matheushenriquecsb/photo-gallery-frontend) 
+ [Acesse o código fonte do frontend do projeto](https://github.com/matheushenriquecsb/photo-gallery-frontend) 
