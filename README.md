@@ -1,6 +1,6 @@
 # Photo Gallery Backend 
 
-Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo esse arquivo no banco de dados, e mostrando para usuario no front.
+Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo esse arquivo no banco de dados, e mostrando para usuário no front.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -14,13 +14,14 @@ Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo ess
 ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
-## Pré-requisitos e como rodar o projeto
+## Pré-requisitos e como rodar o projeto:
 
   Você precisa ter instalado em sua máquina as seguintes ferramentas:<br>
 - Um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
 - Navegador de sua preferência, no meu caso utilizo o [Chrome](https://www.google.com/intl/pt-BR/chrome/)<br>
-- Configurar o banco de dados e inserir a url na variavel de ambiente(.env)<br>
-- Defina a porta que seu projeto deve ser rodado na variavel de ambiente(.env)<br>
+
+- Configurar o banco de dados e inserir a url na variável de ambiente(.env)<br>
+- Defina a porta que seu projeto deve ser rodado na variável de ambiente(.env)<br>
 - Para o rodar o projeto, primeiramente abra o projeto em seu editor de código e no seu terminal digite <i>npm start ou yarn start</i><br>
 - Acesse o servidor local em seu navegador na porta escolhida   
 
