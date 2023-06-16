@@ -3,8 +3,8 @@
 Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo esse arquivo no banco de dados, e mostrando para usuário no front.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
-<img src="https://github.com/matheushenriquecsb/photo-gallery-backend/blob/main/image/Project.png?raw=true" width="455"/> <img src="https://github.com/matheushenriquecsb/photo-gallery-backend/blob/main/image/Project1 .png?raw=true" width="455"/>
+ 
+<hr>
 
 ### Tecnologias e dependências utilizadas
 
@@ -15,16 +15,31 @@ Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo ess
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 <hr>
 
-### Pré-requisitos e como rodar o projeto:
+### Pré-requisitos
 
-  Você precisa ter instalado em sua máquina as seguintes ferramentas:<br>
-- Um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
-- Navegador de sua preferência, no meu caso utilizo o [Chrome](https://www.google.com/intl/pt-BR/chrome/)<br>
+* Um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
+* Framework para trabalhar com o servidor, no meu caso o [Node.js](https://nodejs.org/en/)<br>
+* Software para testar as rotas, como [Insomnia](https://insomnia.rest/)<br> 
+* Definir as variaveis de ambiente<br>
+
 <hr>
 
-- Configurar o banco de dados na variável de ambiente<i> (.env)</i><br>
-- Defina a porta que seu projeto deve ser rodado na variável de ambiente<i> (.env)</i><br>
-- Para o rodar o projeto, primeiramente abra o projeto em seu editor de código e no seu terminal digite <i>npm start ou yarn start</i><br> 
+### Rodar a aplicação
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/matheushenriquecsb/photo-gallery-backend
+
+# Acesse o diretório
+$ cd photo-gallery-backend 
+
+# Instalando dependências
+$ npm install
+
+# Rode a aplicação
+$ npm start
+```
+
 
 ### Acesso ao Projeto
 
