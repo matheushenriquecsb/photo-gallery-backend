@@ -4,46 +4,55 @@ Aplicação que tem como objetivo realizar o upload de uma imagem, inserindo ess
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
  
-<hr>
-
-### Tecnologias e dependências utilizadas
+## Tech Stacks
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
-<hr>
 
-### Pré-requisitos
+## Requirements
 
-* Um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
-* Framework para trabalhar com o servidor, no meu caso o [Node.js](https://nodejs.org/en/)<br>
-* Software para testar as rotas, como [Insomnia](https://insomnia.rest/)<br> 
-* Definir as variaveis de ambiente<br>
+* Editor de código recomendado: [VSCode](https://code.visualstudio.com/)<br>
+* Possuir o [Node.js](https://nodejs.org/en/)<br>
+* Software para testar os enpoints, como [Insomnia](https://insomnia.rest/) ou [Postman](https://postman.com/)<br>
 
-<hr>
+## Features
 
-### Rodar a aplicação
+- Cors   
+- Middlewares para upload das fotos 
+- Mongoose Typeorm
+
+## Installation
+
+### 1. Clone o repositório
 
 ```bash
-# Clone o repositório
-$ git clone https://github.com/matheushenriquecsb/photo-gallery-backend
-
-# Acesse o diretório
-$ cd photo-gallery-backend 
-
-# Instalando dependências
-$ npm install
-
-# Rode a aplicação
-$ npm start
+git clone https://github.com/matheushenriquecsb/photo-gallery-backend
 ```
 
+### 2. Acesse o diretório
 
-### Acesso ao Projeto
+```bash
+cd photo-gallery-backend
+``` 
 
- [Acesse o código fonte do projeto](https://github.com/matheushenriquecsb/photo-gallery-backend) 
+### 3. Instalando dependências
+
+```bash
+yarn install
+```
+
+### 4. Criando um arquivo `.env`
+
+Crie um arquivo `.env` na raiz do diretório e adicione as variáveis de ambiente que estão no `.env.example`
+
+### 5. Run the application
+
+```bash
+yarn start
+``` 
  
 ### Frontend do Projeto
 
